@@ -15,6 +15,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Dashboard de Mantenimiento | ACCIONA IFM",
   description: "Dashboard de mantenimiento ACCIONA IFM",
+
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png"
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
